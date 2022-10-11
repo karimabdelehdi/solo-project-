@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Document</title>
+    <script src='https://code.jquery.com/jquery-2.2.4.js'>
+    </script> 
+</head>
+<body>
+  <center><div>
+ <p>Welcome Gallery Plans</p>
+  <input type="text" id="add" name="add" placeholder="Here !">
+  <button id="btn12" onclick="add()">Add</button> 
+   <button id="btn">Delete</button>
+</div>
+<div>
+  <p id="p1">
+
+  </p>
+ 
+  <div>
+ <button id="btn22" onclick="changr()">objectiv 1 "done"</button>
+<button id="btn32" onclick="changr01()">objectiv 1 you don't do it  </button>
+</div>
+<div>
+<button id="btn42" onclick="changr1()">objectiv 2 "done"</button>
+<button id="btn52" onclick="changr11()">objectiv 2 you don't  do it  </button> 
+</div>
+<div>
+<button id="btn62" onclick="changr2()">objectiv 3 "done"</button>
+<button id="btn72" onclick="changr21()">objectiv 3 you don't do it  </button>
+</div>
+<div>
+<button id="btn82" onclick="changr3()">objectiv 4 "done"</button>
+<button id="btn92" onclick="changr31()">objectiv 4 you don't do it  </button> 
+</div>
+<div>
+<button id="btn102" onclick="changr4()">objectiv 5 "done"</button>
+<button id="btn112" onclick="changr41()">objectiv 5 you don't  do it  </button>
+</div>
+</div></center>
+    <script>
+      function add () { 
+      $('#p1').append('<p>',$('#add').val(),'</p>')
+    }
+    
+    </script>
+
+    <script src="app.js">
+ 
+    </script>
+</body>
+</html>
